@@ -1,7 +1,6 @@
 // Customize this 'myform.js' script and add it to your JS bundle.
 // Then import it with 'import FormContact from "./myform.js"'.
 // Finally, add a <FormContact/> element whereever you wish to display the form.
-import Button from 'react-bootstrap/Button'
 import React from 'react'
 
 export default class FormContact extends React.Component {
@@ -17,6 +16,7 @@ export default class FormContact extends React.Component {
     const { status } = this.state
     return (
       <form
+        id='contact'
         className='contactMeForm'
         onSubmit={this.submitForm}
         action='https://formspree.io/f/xvovlpaw'

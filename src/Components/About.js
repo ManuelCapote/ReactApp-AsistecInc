@@ -1,5 +1,4 @@
 import React from 'react'
-import Jumbotron from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'
 import ModalContact from './modalContact.js'
 import ModalHeader from 'react-bootstrap/ModalHeader'
@@ -33,20 +32,6 @@ function About() {
           placeat, quidem non fugiat illum? A nobis necessitatibus minus,
           nesciunt optio perspiciatis doloremque veniam aut velit provident!
         </p>
-        <div className='divStats'>
-          <div className='divCircle'>
-            <p className='aboutNumbers'>+20</p>
-            <p className='aboutCircleText'> Years of Experience</p>
-          </div>
-          <div className='divCircle'>
-            <p className='aboutNumbers'>+50</p>
-            <p className='aboutCircleText'>Clients</p>
-          </div>
-          <div className='divCircle'>
-            <p className='aboutNumbers'>+10</p>
-            <p className='aboutCircleText'>Lorem ipsum dolor sit.</p>
-          </div>
-        </div>
       </div>
     </div>
   )
